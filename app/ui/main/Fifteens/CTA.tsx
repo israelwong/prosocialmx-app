@@ -1,10 +1,11 @@
 'use client';
-
 import React from 'react'
 import BtnBorderSpin from '@/app/ui/main/BtnBorderSpin';
 import Link from 'next/link';
 
 function CTA() {
+
+
     return (
         <div>
             <div className="text-center space-y-3 px-8 pt-5">
@@ -29,7 +30,6 @@ function CTA() {
                 >
                     Todos los paquetes
                 </Link>
-
 
             </div>
         </div>

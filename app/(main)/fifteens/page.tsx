@@ -1,6 +1,5 @@
 import React from 'react'
 import type { Metadata } from "next";
-// import { Fade } from "react-awesome-reveal";
 import Hero from '@/app/ui/main/Fifteens/Hero';
 import CTA from '@/app/ui/main/Fifteens/CTA';
 import Hook from '@/app/ui/main/Hook';
@@ -13,6 +12,7 @@ export const metadata: Metadata = {
 };
 
 function page() {
+
   return (
     <div className='space-y-10'>
       <section>

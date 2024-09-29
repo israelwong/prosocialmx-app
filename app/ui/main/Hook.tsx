@@ -1,4 +1,3 @@
-'use client';
 
 import React from 'react';
 
@@ -6,7 +5,10 @@ interface HookProps {
     message: string;
 }
 
-function Hook({ message }: HookProps) {
+async function Hook({ message }: HookProps) {
+
+    await new Promise((resolve) => setTimeout(resolve, 3000));
+
     return (
         <div className="p-5 max-w-screen-md mx-auto">
             <div className="text-left py-10 px-6 border border-pink-900/50 rounded-lg">

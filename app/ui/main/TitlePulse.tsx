@@ -14,9 +14,7 @@ function TitlePulse({ titulo }: TitlePulseProps) {
                     <span className="relative inline-flex rounded-full h-4 w-4 bg-pink-800"></span>
                 </span>
 
-                <span className="
-    bg-clip-text text-transparent bg-gradient-to-r from-pink-600 to-pink-500
-    text-lg font-bold pb-2"> {titulo}
+                <span className=" bg-clip-text text-transparent bg-gradient-to-r from-pink-600 to-pink-700 text-xl font-light  pb-2"> {titulo}
                 </span>
             </div>
 

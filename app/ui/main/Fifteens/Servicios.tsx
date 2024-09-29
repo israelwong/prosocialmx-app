@@ -9,14 +9,13 @@ import VideoPlayer from '@/app/ui/main/VideoPlayer';
 import Hook from '@/app/ui/main/Hook';
 
 function Servicios() {
+
     return (
         <div>
 
-
             {/* <!-- TITULO --> */}
             <div className="px-10 md:max-w-screen-md mx-auto mt-10">
-                <p className="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500 mb-4 font-semibold
-    md:text-2xl">
+                <p className="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500 mb-4 font-semibold md:text-2xl">
                     ¿Qué te ofrecemos?
                 </p>
                 <h2 className="font-Bebas-Neue text-4xl md:text-5xl">
@@ -28,7 +27,6 @@ function Servicios() {
             </div>
 
             {/* <!-- FOTOGRAFÍA DE VESTIDO --> */}
-
             <Fade >
                 <div className="mb-10">
                     <div className="py-10 px-10 md:max-w-screen-md mx-auto">
@@ -38,6 +36,7 @@ function Servicios() {
                         </p>
                     </div>
                     <SlideFotosSesionesVestido />
+
                 </div>
             </Fade>
 
@@ -135,7 +134,6 @@ function Servicios() {
                             Nosotros nos encargamos de capturar los mejores momentos de tu evento
                         </p>
                     </div>
-
                     <SlideFotosEvento />
                 </div>
             </Fade>

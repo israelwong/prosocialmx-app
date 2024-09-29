@@ -1,9 +1,7 @@
-"use client";
-
 import React from "react";
 import VideoPlayer from "@/app/ui/main/VideoPlayer";
 
-function Hero() {
+async function Hero() {
   return (
     <div>
       <div

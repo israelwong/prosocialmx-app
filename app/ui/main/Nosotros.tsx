@@ -1,17 +1,16 @@
 'use client';
-import React from 'react'
 import { Fade } from 'react-awesome-reveal';
 import { CircleCheck, Clock8, Calendar, User, Camera, Award } from 'lucide-react';
-
+import NosotrosItem from '@/app/ui/main/NosotrosItem';
 
 function Nosotros() {
+
     return (
         <div>
 
             <div className="px-8 md:max-w-screen-md mx-auto">
 
-                <p className="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500 mb-4 font-semibold
-md:text-2xl ">
+                <p className="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500 mb-4 font-semibold md:text-2xl ">
                     ¿Por qué nosotros?
                 </p>
 
@@ -25,58 +24,52 @@ md:text-2xl ">
 
                 <div className="grid md:grid-cols-2 grid-flow-row gap-3 justify-center align-middle">
 
-                    <Fade>
-                        <div className="py-5 bg-zinc-950 p-5 rounded-md border border-violet-900">
-                            <h5 className="font-semibold text-violet-400 pb-1">
-                                <CircleCheck className='inline-block' /> Compromiso
-                            </h5>
-                            <p className="text-sm font-light text-gray-300">Resolvemos cualquier eventualidad y te apoyamos en todo momento.</p>
-                        </div>
+                    <Fade duration={500}>
+                        <NosotrosItem
+                            icon={CircleCheck}
+                            title="Compromiso"
+                            description="Resolvemos cualquier eventualidad y te apoyamos en todo momento."
+                        />
                     </Fade>
 
-                    <Fade>
-                        <div className="py-5 bg-zinc-950 p-5 rounded-md border border-violet-900">
-                            <h5 className="font-semibold text-violet-400 pb-1">
-                                <Clock8 className='inline-block' /> Puntualidad
-                            </h5>
-                            <p className="text-sm font-light text-gray-300">Nos anticipamos a llegar 40min antes de que inice tu servicio.</p>
-                        </div>
+                    <Fade duration={500}>
+                        <NosotrosItem
+                            icon={Clock8}
+                            title="Puntualidad"
+                            description="Nos anticipamos a llegar 40min antes de que inice tu servicio.."
+                        />
                     </Fade>
 
-                    <Fade>
-                        <div className="py-5 bg-zinc-950 p-5 rounded-md border border-violet-900">
-                            <h5 className="font-semibold text-violet-400 pb-1">
-                                <Calendar className='inline-block' /> Planeación y logística
-                            </h5>
-                            <p className="text-sm font-light text-gray-300">Trabajamos contigo la planificación de sesiones previas y cobertura de evento.</p>
-                        </div>
+                    <Fade duration={500}>
+                        <NosotrosItem
+                            icon={Calendar}
+                            title="Planeación y logística"
+                            description="Trabajamos contigo la planificación de sesiones previas y cobertura de evento."
+                        />
                     </Fade>
 
-                    <Fade>
-                        <div className="py-5 bg-zinc-950 p-5 rounded-md border border-violet-900">
-                            <h5 className="font-semibold text-violet-400 pb-1">
-                                <User className='inline-block' /> Personal calificado
-                            </h5>
-                            <p className="text-sm font-light text-gray-300">Personal con experiencia garantizará para cubrir tu evento.</p>
-                        </div>
+                    <Fade duration={500}>
+                        <NosotrosItem
+                            icon={User}
+                            title="Personal calificado"
+                            description="Personal con experiencia garantizará para cubrir tu evento."
+                        />
                     </Fade>
 
-                    <Fade>
-                        <div className="py-5 bg-zinc-950 p-5 rounded-md border border-violet-900">
-                            <h5 className="font-semibold text-violet-400 pb-1">
-                                <Camera className='inline-block' /> Producción profesional
-                            </h5>
-                            <p className="text-sm font-light text-gray-300">Utilizamos equipos de gama alta para garantizar resultados de calidad.</p>
-                        </div>
+                    <Fade duration={500}>
+                        <NosotrosItem
+                            icon={Camera}
+                            title="Producción profesional"
+                            description="Utilizamos equipos de gama alta para garantizar resultados de calidad."
+                        />
                     </Fade>
 
-                    <Fade>
-                        <div className="py-5 bg-zinc-950 p-5 rounded-md border border-violet-900">
-                            <h5 className="font-semibold text-violet-400 pb-1">
-                                <Award className='inline-block' /> Seguimiento post-entrega
-                            </h5>
-                            <p className="text-sm font-light text-gray-300">Te ofrecemos garantias de post-entrega para garantizar tu satisfacción.</p>
-                        </div>
+                    <Fade duration={500}>
+                        <NosotrosItem
+                            icon={Award}
+                            title="Seguimiento post-entrega"
+                            description="Te ofrecemos garantias de post-entrega para garantizar tu satisfacción."
+                        />
                     </Fade>
 
                 </div>
