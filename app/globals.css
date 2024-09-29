@@ -25,3 +25,19 @@ body {
     text-wrap: balance;
   }
 }
+
+@font-face {
+  font-family: 'smooch';
+  src: url('./fonts/smooch/smooch-latin-400-normal.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'roboto';
+  src: url('./fonts/roboto/roboto-cyrillic-300-normal.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

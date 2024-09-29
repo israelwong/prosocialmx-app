@@ -1,4 +1,10 @@
-// import Image from "next/image";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Bienvenido a ProSocial",
+  description: "Forogafía y video profesional para eventos sociales",
+};
+
 
 export default function Home() {
   return (
