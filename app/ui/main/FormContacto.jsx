@@ -11,6 +11,9 @@ export default function FormContacto() {
   });
 
   const [errors, setErrors] = useState({});
+  const [id_paquete, setIdPaquete] = useState(0);
+  const [id_asunto, setIdAsunto] = useState(0);
+  const [id_tipo_evento, setIdTipoEvento] = useState(0);
 
   useEffect(() => {
     const id_paquete = Number(sessionStorage.getItem("id_paquete" || 0));
