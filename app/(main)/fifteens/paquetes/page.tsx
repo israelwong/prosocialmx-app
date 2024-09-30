@@ -1,7 +1,7 @@
 import React from 'react'
 import type { Metadata } from "next";
 import BtnCerrar from '@/app/ui/main/BtnCerrar';
-import PaquetesFifteens from '@/app/ui/main/fifteens/PaquetesFifteens';
+import PaquetesFifteens from '@/app/ui/main/Fifteens/PaquetesFifteens';
 import Galeria from '@/app/ui/main/Galeria';
 
 export const metadata: Metadata = {
