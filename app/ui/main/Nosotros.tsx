@@ -1,5 +1,5 @@
-'use client';
-import { Fade } from 'react-awesome-reveal';
+// 'use client';
+// import { Fade } from 'react-awesome-reveal';
 import { CircleCheck, Clock8, Calendar, User, Camera, Award } from 'lucide-react';
 import NosotrosItem from '@/app/ui/main/NosotrosItem';
 
@@ -24,53 +24,41 @@ function Nosotros() {
 
                 <div className="grid md:grid-cols-2 grid-flow-row gap-3 justify-center align-middle">
 
-                    <Fade duration={500}>
-                        <NosotrosItem
-                            icon={CircleCheck}
-                            title="Compromiso"
-                            description="Resolvemos cualquier eventualidad y te apoyamos en todo momento."
-                        />
-                    </Fade>
+                    <NosotrosItem
+                        icon={CircleCheck}
+                        title="Compromiso"
+                        description="Resolvemos cualquier eventualidad y te apoyamos en todo momento."
+                    />
 
-                    <Fade duration={500}>
-                        <NosotrosItem
-                            icon={Clock8}
-                            title="Puntualidad"
-                            description="Nos anticipamos a llegar 40min antes de que inice tu servicio.."
-                        />
-                    </Fade>
+                    <NosotrosItem
+                        icon={Clock8}
+                        title="Puntualidad"
+                        description="Nos anticipamos a llegar 40min antes de que inice tu servicio.."
+                    />
 
-                    <Fade duration={500}>
-                        <NosotrosItem
-                            icon={Calendar}
-                            title="Planeación y logística"
-                            description="Trabajamos contigo la planificación de sesiones previas y cobertura de evento."
-                        />
-                    </Fade>
+                    <NosotrosItem
+                        icon={Calendar}
+                        title="Planeación y logística"
+                        description="Trabajamos contigo la planificación de sesiones previas y cobertura de evento."
+                    />
 
-                    <Fade duration={500}>
-                        <NosotrosItem
-                            icon={User}
-                            title="Personal calificado"
-                            description="Personal con experiencia garantizará para cubrir tu evento."
-                        />
-                    </Fade>
+                    <NosotrosItem
+                        icon={User}
+                        title="Personal calificado"
+                        description="Personal con experiencia garantizará para cubrir tu evento."
+                    />
 
-                    <Fade duration={500}>
-                        <NosotrosItem
-                            icon={Camera}
-                            title="Producción profesional"
-                            description="Utilizamos equipos de gama alta para garantizar resultados de calidad."
-                        />
-                    </Fade>
+                    <NosotrosItem
+                        icon={Camera}
+                        title="Producción profesional"
+                        description="Utilizamos equipos de gama alta para garantizar resultados de calidad."
+                    />
 
-                    <Fade duration={500}>
-                        <NosotrosItem
-                            icon={Award}
-                            title="Seguimiento post-entrega"
-                            description="Te ofrecemos garantias de post-entrega para garantizar tu satisfacción."
-                        />
-                    </Fade>
+                    <NosotrosItem
+                        icon={Award}
+                        title="Seguimiento post-entrega"
+                        description="Te ofrecemos garantias de post-entrega para garantizar tu satisfacción."
+                    />
 
                 </div>
 

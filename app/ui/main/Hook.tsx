@@ -5,9 +5,9 @@ interface HookProps {
     message: string;
 }
 
-async function Hook({ message }: HookProps) {
+function Hook({ message }: HookProps) {
 
-    await new Promise((resolve) => setTimeout(resolve, 3000));
+    // await new Promise((resolve) => setTimeout(resolve, 3000));
 
     return (
         <div className="p-5 max-w-screen-md mx-auto">

@@ -7,7 +7,8 @@
 
 const nextConfig = {
     images: {
-      domains: ['bgtapcutchryzhzooony.supabase.co'],
+      domains: 
+      ['bgtapcutchryzhzooony.supabase.co'],
     },
   };
   

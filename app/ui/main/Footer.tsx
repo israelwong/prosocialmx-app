@@ -1,4 +1,6 @@
 import React from 'react'
+import Image from 'next/image'
+import Link from 'next/link'
 
 function Footer() {
     return (
@@ -43,12 +45,31 @@ function Footer() {
 
                     </div>
 
-                    <span className="text-sm text-gray-500 text-center block">
-                        ProSocial 2024, Todos los derechos reservados.
-                    </span>
+                    <div className='text-center'>
+
+                        <p className="text-sm text-gray-500 text-center block pb-3">
+                            ProSocial 2024, Todos los derechos reservados.
+                        </p>
+
+                        <p className='text-zinc-700 text-sm'>
+                            Sitio web dieñado por
+                        </p>
+
+                        <Link href="https://promedia.mx" target="_blank" title="ProMedia">
+                            <Image
+                                title="ProMedia"
+                                src="https://sfsjdyuwttrcgchbsxim.supabase.co/storage/v1/object/public/ProMedia/logo_dark_gray.svg"
+                                width={200}
+                                height={200}
+                                alt="ProMedia"
+                                className="h-4 mx-auto inline-block"
+                            />
+                        </Link>
+                    </div>
 
                 </div>
             </div>
+
         </footer>
 
     )

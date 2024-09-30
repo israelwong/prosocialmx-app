@@ -1,7 +1,7 @@
 import React from "react";
 import VideoPlayer from "@/app/ui/main/VideoPlayer";
 
-async function Hero() {
+function Hero() {
   return (
     <div>
       <div

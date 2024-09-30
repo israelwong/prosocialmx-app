@@ -72,7 +72,7 @@ function Servicios() {
                     <div className="pt-10 pb-5 px-10 md:max-w-screen-md mx-auto">
                         <TitlePulse titulo={"Impresión de cuadros"} />
                         <p className="md:text-xl text-md font-light text-slate-200">
-                            Puedes imprimir una de las fotografías de sesión en un cuadro de acrílico de 24x36&cout;
+                            Puedes imprimir una de las fotografías de sesión en un cuadro de acrílico de 24x36&quot;
                         </p>
                     </div>
 
@@ -118,12 +118,9 @@ function Servicios() {
                 </div>
             </Fade>
 
-
-
             <Hook
                 message={"Vive al máximo tu evento, nosotros nos encargamos de inmortalizarlo."}
             />
-
 
             {/* <!-- FOTOGRAFÍA PARA EVENTO --> */}
             <Fade >

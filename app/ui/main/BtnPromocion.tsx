@@ -1,18 +1,38 @@
-import Link from "next/link";
+'use client';
 
-function BtnBorderSpin({ id, title, href, target }) {
+import React, { useCallback, useEffect } from "react";
+
+interface BtnPromoProps {
+  title: string;
+  id_paquete: number;
+  id_asunto: number;
+  id_tipo_evento: number;
+}
+
+function BtnPromo({ title = '¡Quiero este paquete!', id_paquete, id_asunto, id_tipo_evento }: BtnPromoProps) {
+
+
+  useEffect(() => {
+    sessionStorage.setItem("id_paquete", id_paquete.toString());
+    sessionStorage.setItem("id_asunto", id_asunto.toString());
+    sessionStorage.setItem("id_tipo_evento", id_tipo_evento.toString());
+  }, []);
+
+  const handleClick = useCallback(() => {
+    window.open("/contacto", "_self");
+  }, []);
+
   return (
     <div>
       <div className="flex w-full max-w-lg">
         <div className="relative z-10 flex cursor-pointer overflow-hidden rounded-full border border-none p-[1.5px] md:mx-0 mx-auto">
           <div className="animate-rotate absolute h-full w-full rounded-full bg-[conic-gradient(#cbd5e1_20deg,transparent_120deg)]"></div>
 
-          <Link
-            id={id}
-            title={title}
+          <button
+            id="btn_promo"
+            title="Promoción"
+            onClick={() => handleClick()}
             className="relative z-20 flex w-full rounded-full bg-gray-950"
-            href={href}
-            target={target}
           >
             <span
               className="
@@ -23,11 +43,11 @@ function BtnBorderSpin({ id, title, href, target }) {
             >
               {title}
             </span>
-          </Link>
+          </button>
         </div>
       </div>
     </div>
   );
 }
 
-export default BtnBorderSpin;
+export default BtnPromo;

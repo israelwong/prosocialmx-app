@@ -1,0 +1,141 @@
+[
+    {
+        "id": 1,
+        "name": "Todo incluido",
+        "popular": 0,
+        "price": "55,000",
+        "services": [
+            {
+                "nombre": "Sesión previa fotográfica",
+                "items": [
+                    { "name": "Fotografía de vestido 2 hrs", "included": true },
+                    { "name": "Fotografía de cambios casuales 2 hrs", "included": true },
+                    { "name": "Todas las fotografías de sesión en digital alta calidad con revelado ligero ", "included": true },
+                    { "name": "18 Fotografías en digital con retoque avanzado en alta calidad", "included": true },
+                    { "name": "1 Cuadro de acrílico 24x36”", "included": true },
+                    { "name": "Video slide con las fotos de retoque fino de sesión", "included": true },
+                    { "name": "Libro impreso de sesión 12x24 pulg", "included": true }
+                ]
+            },
+            {
+                "nombre": "Sesión Cinemática",
+                "items": [
+                    { "name": "Sesión cinemática de sesión usando cámara en piso y dron", "included": true },
+                    { "name": "Video cinemático de sesión de hasta 3min", "included": true }
+                ]
+            },
+            {
+                "nombre": "Arreglo en domicilio",
+                "items": [
+                    { "name": "Servicio de fotografía hasta por 2 hrs", "included": true },
+                    { "name": "Servicio de video hasta por 2 horas", "included": true }
+                ]
+            },
+            {
+                "nombre": "Tour limusina",
+                "items": [
+                    { "name": "Servicio de fotografía por la duración del tour", "included": true },
+                    { "name": "Servicio en video por la duración del tour", "included": true }
+                ]
+            },
+            {
+                "nombre": "Cobertura del evento en fotografía",
+                "items": [
+                    { "name": "Fotógrafo profesional", "included": true },
+                    { "name": "Todas las fotografías en revelado ligero alta resolución", "included": true },
+                    { "name": "Libro impreso de lujo 12x24 pulg con portada y caja en acrílico 20 paginas en interior", "included": true }
+                ]
+            },
+            {
+                "nombre": "Cobertura del evento en video",
+                "items": [
+                    { "name": "Remembranza", "included": true },
+                    { "name": "Camarógrafo profesional", "included": true },
+                    { "name": "Uso de dron en momentos clave", "included": true },
+                    { "name": "Uso de grúa con cabezal robótico", "included": true },
+                    { "name": "Video de +45min", "included": true },
+                    { "name": "Video resumen +3min", "included": true }
+                ]
+            },
+            {
+                "nombre": "Otros entegables",
+                "items": [
+                    { "name": "USB de 32GB en caja", "included": true },
+                    { "name": "Link permantente de Google Drive", "included": true }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Estándar",
+        "popular": 1,
+        "price": "35,000",
+        "services": [
+            {
+                "nombre": "Sesión previa fotográfica",
+                "items": [
+                    { "name": "Fotografía de vestido 2 hrs", "included": true },
+                    { "name": "Fotografía de cambios casuales 2 hrs", "included": true },
+                    { "name": "Todas las fotografías de sesión en digital alta calidad con revelado ligero ", "included": true },
+                    { "name": "12 Fotografías en digital con retoque avanzado en alta calidad", "included": true },
+                    { "name": "1 Cuadro de acrílico 24x36”", "included": true },
+                    { "name": "Video slide con las fotos de retoque fino de sesión", "included": true }
+                ]
+            },
+            {
+                "nombre": "Cobertura del evento en fotografía",
+                "items": [
+                    { "name": "Fotógrafo profesional", "included": true },
+                    { "name": "Todas las fotografías en revelado ligero alta resolución", "included": true },
+                    { "name": "Libro impreso estándar de 12x24 pulg con caja sencilla", "included": true }
+                ]
+            },
+            {
+                "nombre": "Cobertura del evento en video",
+                "items": [
+                    { "name": "Remembranza", "included": true },
+                    { "name": "Camarógrafo profesional", "included": true },
+                    { "name": "Uso de dron en momentos clave", "included": true },
+                    { "name": "Video de +45min", "included": true },
+                    { "name": "Video resumen +3min", "included": true }
+                ]
+            },
+            {
+                "nombre": "Otros entegables",
+                "items": [
+                    { "name": "USB de 32GB en caja", "included": true },
+                    { "name": "Link permantente de Google Drive", "included": true }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Básico",
+        "price": "12,000",
+        "popular": 0,
+        "services": [
+            {
+                "nombre": "Cobertura del evento en fotografía",
+                "items": [
+                    { "name": "Fotógrafo profesional", "included": true },
+                    { "name": "Todas las fotografías en revelado ligero alta resolución", "included": true }
+                ]
+            },
+            {
+                "nombre": "Cobertura del evento en video",
+                "items": [
+                    { "name": "Remembranza", "included": true },
+                    { "name": "Camarógrafo profesional", "included": true }
+                ]
+            },
+            {
+                "nombre": "Otros entegables",
+                "items": [
+                    { "name": "Link permantente de Google Drive", "included": true }
+                ]
+            }
+        ]
+    }
+]

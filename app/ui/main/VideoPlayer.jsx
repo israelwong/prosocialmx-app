@@ -2,7 +2,14 @@
 
 import { useEffect } from "react";
 
-function VideoPlayer({ src, autoPlay = 0, muted = 0, loop = 0, poster = "" }) {
+function VideoPlayer({
+  src,
+  autoPlay = 0,
+  muted = 0,
+  loop = 0,
+  poster = "",
+  controls = 0,
+}) {
   useEffect(() => {
     if (typeof document !== "undefined") {
       const videos = document.querySelectorAll("video");
@@ -19,6 +26,7 @@ function VideoPlayer({ src, autoPlay = 0, muted = 0, loop = 0, poster = "" }) {
       muted={muted}
       playsInline
       poster={poster}
+      controls={controls}
     >
       <source src={src} />
       Tu navegador no soporta el elemento de video.

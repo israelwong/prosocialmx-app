@@ -4,6 +4,7 @@ import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { Menu } from 'lucide-react';
 import { usePathname } from 'next/navigation'
+import Image from 'next/image';
 
 
 export default function Navbar() {
@@ -34,13 +35,16 @@ export default function Navbar() {
     ];
 
     return (
-        <header className="bg-gradient-to-r bg-purple-800 from-gray-950/60 text-white p-4 z-50">
+        <header className="bg-gradient-to-r bg-purple-800 from-gray-950/60 text-white p-4 z-50  w-full">
+
             <div className="container mx-auto flex items-center justify-between">
                 <div>
                     <figure className="flex">
                         <Link href="/" onClick={() => handleLinkClick('/')}>
-                            <img
+                            <Image
                                 src="https://bgtapcutchryzhzooony.supabase.co/storage/v1/object/public/ProSocial/logos/logotipo_blanco.svg"
+                                width={200}
+                                height={200}
                                 alt="Logotipo de ProSocial"
                                 className="w-1/2 h-fit"
                             />

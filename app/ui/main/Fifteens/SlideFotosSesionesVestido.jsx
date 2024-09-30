@@ -1,14 +1,9 @@
 "use client";
-import React, { useEffect, useState } from "react";
+import { useEffect } from "react";
 import Glide from "@glidejs/glide";
 import Image from "next/image";
-import Lightbox from "yet-another-react-lightbox";
-import "yet-another-react-lightbox/styles.css";
 
 const SlideFotosSesionesVestido = () => {
-  const [open, setOpen] = useState(false);
-  const [currentIndex, setCurrentIndex] = useState(0);
-
   const imagenes = [
     "1.jpg",
     "2.jpg",
@@ -48,11 +43,6 @@ const SlideFotosSesionesVestido = () => {
     };
   }, []);
 
-  const handleImageClick = (index) => {
-    setCurrentIndex(index);
-    setOpen(true);
-  };
-
   return (
     <>
       <div className="glide-fotos-sesion-vestido relative w-full h-fit">
@@ -66,22 +56,12 @@ const SlideFotosSesionesVestido = () => {
                   width={500}
                   height={500}
                   className="m-auto max-h-full w-full max-w-full"
-                  onClick={() => handleImageClick(index)}
                 />
               </li>
             ))}
           </ul>
         </div>
       </div>
-
-      <Lightbox
-        open={open}
-        close={() => setOpen(false)}
-        index={currentIndex}
-        slides={imagenes.map((imagen) => ({
-          src: `https://bgtapcutchryzhzooony.supabase.co/storage/v1/object/public/ProSocial/fofografia/vestido/${imagen}`,
-        }))}
-      />
     </>
   );
 };
