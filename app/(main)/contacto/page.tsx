@@ -1,7 +1,19 @@
 import React from 'react'
 import FormContacto from '@/app/ui/main/FormContacto';
+import type { Metadata } from 'next'
 
-function page() {
+export const metadata: Metadata = {
+  title: 'Contacto',
+  description: 'Contactanos hoy mismo',
+}
+
+function page({ searchParams }: {
+  searchParams: {
+    paquete: number;
+    asunto: number;
+    tipo_evento: number;
+  };
+}) {
   return (
     <div>
 
@@ -22,7 +34,7 @@ function page() {
           <p className="px-8 text-lg font-light">
             Por favor, compartenos la siguiente información brindarte una menor atención.
           </p>
-          <FormContacto />
+          <FormContacto params={searchParams} />
         </div>
       </section>
 

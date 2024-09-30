@@ -52,7 +52,7 @@ function Footer() {
                         </p>
 
                         <p className='text-zinc-700 text-sm'>
-                            Sitio web dieñado por
+                            Sitio web diseñado por
                         </p>
 
                         <Link href="https://promedia.mx" target="_blank" title="ProMedia">

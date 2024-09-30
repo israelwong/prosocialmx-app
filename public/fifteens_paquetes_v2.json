@@ -1,0 +1,83 @@
+[
+    {
+        "id": 1,
+        "name": "Todo incluido",
+        "description": "El paquete más completo para tu evento de XV años en foto y video",
+        "price": "55,000",
+        "services": [
+            {
+                "nombre": "Sesión previa",
+                "items": [
+                    { "name": "Fotografía de vestido con 2 cambios casuales"},
+                    { "name": "Todas las fotos de sesión en natural"},
+                    { "name": "15 fotos con retoque avanzado"},
+                    { "name": "1 Fotolibro impreso de lujo 12x12”"},
+                    { "name": "1 Cuadro en acrílico 24x36”"},
+                    { "name": "Sesion de video con cámara profesional y dron"},
+                    { "name": "Edición de video cinemática de hasta 3 min"},
+                    { "name": "Edición de video remembranza"}
+                    
+                ]
+            },
+            {
+                "nombre": "Día del evento",
+                "items": [
+                    { "name": "Arreglo en domicilio foto y video por 2 hrs"},
+                    { "name": "Tour en limosina foto y video (en caso de aplicar)"},
+                    { "name": "Servicio fotografía por 7 horas a partir de la ceremonia religiosa + "},
+                    { "name": "Todas las fotos en digital"},
+                    { "name": "1 fotolibro impreso de lujo 12x12”"},
+                    { "name": "Video seguimiento 7 hrs a partir de ceremonia religiosa, vuelos de dron y Grúa con cabezal robótico de 8mts"},
+                    { "name": "1 Edición de video de 60 a 90 min FHD"},
+                    { "name": "1 Edición de video reel de 3min FHD"},
+                    { "name": "El material audio visual se entrega en 1 USB y en 1 Link permanente de google drive"}    
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Estándar",
+        "description": "El paquete <b>más popular</b> que aman nuestros clientes por su equilibrio en precio y servicios",
+        "price": "35,000",
+        "services": [
+            {
+                "nombre": "Sesión previa",
+                "items": [
+                    { "name": "Fotografía de vestido con 2 cambios casuales"},
+                    { "name": "Todas las fotos de sesión en natural"},
+                    { "name": "15 fotos con retoque avanzado"},
+                    { "name": "1 cuadro en acrílico 24x36”"},
+                    { "name": "Edición de video remembranza"}
+                ]
+            },
+            {
+                "nombre": "Cubertura del evento",
+                "items": [
+                    { "name": "Servicio fotografía por 7 horas a partir de la ceremonia religiosa"},
+                    { "name": "Todas las fotos en digital"},
+                    { "name": "Video seguimiento 7 hrs a partir de ceremonia religiosa y vuelos de dron"},
+                    { "name": "1 Edición de video de 60 a 90 min FHD"},
+                    { "name": "El material audio visual se entrega en 1 USB y en 1 link permanente de google drive"}
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Básico",
+        "price": "12,000",
+        "description": "Un paquete en foto y video que cubre lo esencial el día de tu evento siempre cuidando cada detalle",
+        "services": [
+            {
+                "nombre": "Cobertura del evento",
+                "items": [
+                    { "name": "Servicio fotografía por 7 horas a partir de la ceremonia religiosa"},
+                    { "name": "Todas las fotos en digital"},
+                    { "name": "Video seguimiento 7 hrs a partir de ceremonia religiosa"},
+                    { "name": "1 Edición de video de 30 a 40 min FHD"}
+                ]
+            }
+        ]
+    }
+]

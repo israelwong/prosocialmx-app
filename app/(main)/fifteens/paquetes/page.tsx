@@ -1,7 +1,7 @@
 import React from 'react'
 import type { Metadata } from "next";
 import BtnCerrar from '@/app/ui/main/BtnCerrar';
-import PaquetesFifteens from '@/app/ui/main/Fifteens/PaquetesFifteens';
+import PaquetesFifteensV2 from '@/app/ui/main/Fifteens/PaquetesFifteensV2';
 import Galeria from '@/app/ui/main/Galeria';
 
 export const metadata: Metadata = {
@@ -12,9 +12,9 @@ export const metadata: Metadata = {
 function page() {
   return (
     <div>
-      <section className="container mx-auto mt-3 text-center md:max-w-screen-lg max-w-screen-sm">
+      <section className="container mx-auto mt-3">
 
-        <div className="py-10 md:py-12">
+        <div className="py-10 md:py-12 text-center">
           <h4
             className="
             text-center 
@@ -32,8 +32,8 @@ function page() {
           </h1>
         </div>
 
-        <div className="px-5 md:max-w-screen-sm mx-auto max-w-screen-sm">
-          <PaquetesFifteens />
+        <div className="px-5">
+          <PaquetesFifteensV2 />
         </div>
 
       </section>
