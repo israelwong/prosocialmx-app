@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Navbar from "@/app/ui/main/Navbar";
 import Footer from "@/app/ui/main/Footer";
+import { GoogleTagManager } from '@next/third-parties/google';
 
 import Script from "next/script";
 import "./globals.css";
@@ -41,6 +42,7 @@ export default function RootLayout({
         <Navbar />
         {children}
         <Footer />
+        <GoogleTagManager gtmId="GTM-WCG8X7J" />
       </body>
     </html>
   );
