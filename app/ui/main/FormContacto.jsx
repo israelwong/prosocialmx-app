@@ -92,12 +92,7 @@ export default function FormContacto({ params }) {
     );
 
     //enviar mensaje por whatsapp
-    const whatsappMessage = `Hola, mi nombre es *${formData.nombre}*, te comparto la información:
-    \n
-    \nAsunto: ${asunto.label}
-    \nTipo de evento: ${tipo_evento.label}
-    \nPaquete: ${paquete.label}
-    \nFecha: ${formData.fechaEvento}.`;
+    const whatsappMessage = `Hola, mi nombre es ${formData.nombre}, te comparto el motivo de mi mensaje:\n> Asunto: ${asunto.label}\n> Tipo de evento: ${tipo_evento.label}\n> Paquete: ${paquete.label}\n> Fecha: ${formData.fechaEvento}.`;
 
     //quita erroes de formulario
     setErrors({});

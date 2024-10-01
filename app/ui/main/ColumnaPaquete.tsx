@@ -69,8 +69,8 @@ function ColumnaPaquete({ id, name, description, price, services }: ColumnaPaque
                                 pathname: '/contacto',
                                 query: {
                                     paquete: id,
-                                    asunto: 1,
-                                    tipo_evento: 1
+                                    asunto: 2,
+                                    tipo_evento: 2
                                 }
                             }}
                             id="btn_promo"

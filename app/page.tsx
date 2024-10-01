@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <section className="w-full h-auto flex items-center justify-center
-    bg-gradient-to-b from-slate-900 to-slate-950/20
+    bg-gradient-to-b from-slate-900 to-slate-950/10
     ">
 
       <div className="">
@@ -20,8 +20,8 @@ export default function Home() {
             <h2 className="
                 mx-auto font-Bebas-Neue 
                 md:text-5xl text-6xl
-                animate-pulse text-slate-600">
-              10 años de experiencia
+                animate-pulse ">
+              Más de 10 años
             </h2>
             <p className="md:text-2xl text-xl">
               Presentes en momentos especiales
