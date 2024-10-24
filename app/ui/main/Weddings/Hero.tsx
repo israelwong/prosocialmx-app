@@ -27,9 +27,9 @@ function Hero() {
 
                 <VideoPlayer
                     src={'https://bgtapcutchryzhzooony.supabase.co/storage/v1/object/public/ProSocial/weddings/reels_evento_2018.mp4'}
-                    muted={0}
-                    controls={1}
-                    loop={1}
+                    muted={true}
+                    controls={false}
+                    loop={true}
                 />
 
                 <p className="mt-4 text-lg md:text-xl text-gray-200 font-light text-center md:px-20 px-8 mb-4">

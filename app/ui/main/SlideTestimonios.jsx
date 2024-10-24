@@ -2,6 +2,7 @@
 
 import { useEffect } from "react";
 import Glide from "@glidejs/glide";
+// import Image from "next/image";
 
 function SlideTestimonios() {
   const testimonios = [
@@ -87,11 +88,11 @@ function SlideTestimonios() {
                   <div className="h-full overflow-hidden text-slate-500 border border-slate-500 rounded-md">
                     <div className="relative p-6">
                       <figcaption className="flex items-center gap-4 p-3 text-sm text-slate-500">
-                        <img
+                        {/* <Image
                           alt="Testimonios de clientes ProSocial "
                           className="w-16 h-16 rounded-full border-4 border-shite max-w-full shrink-0"
                           src={testimonio.icon}
-                        />
+                        /> */}
                         <div className="flex flex-col gap-1">
                           <span className="font-bold uppercase text-2xl pr-12">
                             {testimonio.cliente}

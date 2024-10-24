@@ -4,11 +4,11 @@ import { useEffect } from "react";
 
 function VideoPlayer({
   src,
-  autoPlay = 0,
-  muted = 0,
-  loop = 0,
+  autoPlay = true,
+  muted = true,
+  loop = true,
   poster = "",
-  controls = 0,
+  controls = false,
 }) {
   useEffect(() => {
     if (typeof document !== "undefined") {

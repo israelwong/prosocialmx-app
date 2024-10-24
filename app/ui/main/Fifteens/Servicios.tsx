@@ -79,9 +79,8 @@ function Servicios() {
                     <div className="max-w-screen-md mx-auto">
                         <VideoPlayer
                             src={'https://bgtapcutchryzhzooony.supabase.co/storage/v1/object/public/ProSocial/video/cuadro-acrilico.mp4'}
-                            autoPlay={1}
-                            muted={1}
-                            loop={1}
+                            autoPlay={true}
+                            loop={true}
                         />
                     </div>
 
@@ -109,9 +108,9 @@ function Servicios() {
                     <div className="max-w-screen-md mx-auto">
                         <VideoPlayer
                             src={'https://bgtapcutchryzhzooony.supabase.co/storage/v1/object/public/ProSocial/video/reels/fifteens/reel_sesiones_2019.mp4?t=2024-09-29T01%3A57%3A43.146Z'}
-                            autoPlay={1}
-                            muted={1}
-                            loop={1}
+                            autoPlay={true}
+                            muted={true}
+                            loop={true}
                         />
                     </div>
 
@@ -155,9 +154,8 @@ function Servicios() {
                     <div className="max-w-screen-md mx-auto">
                         <VideoPlayer
                             src={'https://bgtapcutchryzhzooony.supabase.co/storage/v1/object/public/ProSocial/video/reels/fifteens/reel_evento_2019.mp4?t=2024-09-29T01%3A58%3A00.130Z'}
-                            autoPlay={1}
-                            muted={1}
-                            loop={1}
+                            autoPlay={true}
+                            loop={true}
                         />
                     </div>
 
